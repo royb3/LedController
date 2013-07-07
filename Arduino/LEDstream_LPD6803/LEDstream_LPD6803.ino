@@ -163,7 +163,7 @@ void loop() {
   }
 
   // Checksum appears valid.  Get 16-bit LED count, add 1 (nLEDs always > 0)
-  nLEDs = remaining = 256L * (long)hi + (long)lo + 1L;
+  nLEDs = remaining = 50;
   bytesBuffered = 0; // Clear serial buffer
   byteNum = 0;
 
@@ -180,38 +180,30 @@ void loop() {
       buffer[byteNum++] = c;          // Store in data buffer
       if(byteNum == 3) {              // Have a full LED's worth?
         while(byteNum > 0) {          // Issue data in LPD8806 order...
-        if(states > 49)
-          {
-             memset(leds, 0, 50 * 3);
-             for(int now = 0; now < 50; now++)
-            {
-               leds[now].r = 200;
-            }
-            FastSPI_LED.show();
-            delay(1000);
-          }
             switch(byteNum)
              {
                 case 3:
-                        leds[led].r = (buffer[bufferpos] >> 1);
+                        leds[led].r = (buffer[bufferpos]);
                         bufferpos++;
+                        
                         
                         byteNum--;
                         break;
                 case 1:
-                        leds[led].g = (buffer[bufferpos] >> 1);
+                        leds[led].g = (buffer[bufferpos]);
                         bufferpos++;
                         
                         byteNum--;
+                        led++;
                         break;
                 case 2:
-                        leds[led].b = (buffer[bufferpos] >> 1);
+                        leds[led].b = (buffer[bufferpos]);
                         bufferpos++;
                         
                         byteNum--;
                         
                         
-                        led++;
+                        
                         break;
              }
         }   
