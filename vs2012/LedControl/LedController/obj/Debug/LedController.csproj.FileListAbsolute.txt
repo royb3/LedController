@@ -1,0 +1,5 @@
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\obj\Debug\LedController.csprojResolveAssemblyReference.cache
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\bin\Debug\LedController.dll
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\bin\Debug\LedController.pdb
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\obj\Debug\LedController.dll
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\obj\Debug\LedController.pdb
