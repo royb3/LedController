@@ -1,7 +1,7 @@
 LedController
 =============
 
-A led controller library written in C#, and a modified arduino program wich was origanaly written by (i think) adafruit for adalight.
+A LED controller library written in C# and a modified Arduino program which was originally written by (I think) adafruit for adalight.
 The arduino program uses FastSPI, wich you can download here: https://code.google.com/p/fastspi/downloads/list
 For me FastSPI_20121014.zip works great.
 
