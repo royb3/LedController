@@ -14,11 +14,17 @@ namespace LedControl
 {
     public partial class Form1 : Form
     {
-        LedController lc = new LedController(50, SerialPort.GetPortNames()[0], 115200);
+        
+        Monitor monitor;
+        LedController lc;
         public Form1()
         {
-            
+            monitor = new Monitor();
+            lc = new LedController(50, SerialPort.GetPortNames()[0], 115200, monitor);
             InitializeComponent();
+            
+            monitor.Show();
+            lc.sp.DataReceived += sp_DataReceived;
 
             for (int i = 1; i <= 50; i++)
             {
@@ -28,6 +34,12 @@ namespace LedControl
                 listView1.Items.Add(li);
             }
             listView1.ItemSelectionChanged += listView1_ItemSelectionChanged;
+            
+        }
+
+        void sp_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+
             
         }
 

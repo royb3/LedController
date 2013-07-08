@@ -35,15 +35,16 @@ namespace LedControl
             switch (cv)
             {
                 case Colorvalues.G:
-                    position += 1;
-                    break;
+                    return position + 1;
+
                 case Colorvalues.B:
-                    position += 2;
-                    break;
+                    return position + 2;
+
                 default:
-                    break;
+                    return position;
+
             }
-            return position;
+            
         }
 
         public static byte[] ConvertColorToRGB(Color color)

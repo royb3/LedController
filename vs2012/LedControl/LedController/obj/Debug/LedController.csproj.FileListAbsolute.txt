@@ -3,3 +3,10 @@ C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\bin\Debug\Led
 C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\bin\Debug\LedController.pdb
 C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\obj\Debug\LedController.dll
 C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedController\obj\Debug\LedController.pdb
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\bin\Debug\LedController.dll
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\bin\Debug\LedController.pdb
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\obj\Debug\LedController.csprojResolveAssemblyReference.cache
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\obj\Debug\LedController.dll
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\obj\Debug\LedController.pdb
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\obj\Debug\LedController.Monitor.resources
+C:\Users\Roy\Dropbox\LedControl\LedController\VS2012\LedControl\LedController\obj\Debug\LedController.csproj.GenerateResource.Cache
